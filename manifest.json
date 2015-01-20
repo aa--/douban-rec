@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Rec to Douban",
+  "version": "0.1",
+
+  "description": "Rec current page to douban",
+  "icons": { "16": "douban_16.png",
+             "48": "douban_48.png",
+             "114":"douban_114.png" },
+
+  "browser_action": {
+      "default_icon": "douban_48.png",
+      "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://*/*", "https://*/*"
+  ]
+}
